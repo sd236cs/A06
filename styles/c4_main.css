@@ -4,9 +4,32 @@ body {
     font-size: 100%;
 }
 
+:root {
+	--global-color-1: #800000;
+}
+
+a:hover, a:focus {
+	font-style: italic;
+}
+
+.shadow{
+	text-shadow: #800000 2px 2px 0;
+}
 /* the styles for the header */
 header img {
 	float: left;
+}
+
+header h2{
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h3{
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 40px;
 }
 
 /* the styles for the main content */
@@ -25,3 +48,7 @@ main h3 {
 }
 
 /* the styles for the footer */
+
+footer p{
+	text-align: center;
+}
